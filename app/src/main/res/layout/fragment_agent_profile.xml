@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:layout_marginBottom="27dp"
+                                                   android:background="@color/ivory">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_placeholder"
+        app:civ_border_color="#000"
+        app:civ_border_width="5dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/ivory"
+        app:civ_shadow_radius="04"
+        />
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/item_subscriber"
+        android:drawableStart="@drawable/ic_avatar"
+        android:drawableLeft="@drawable/ic_avatar"
+        android:hint="@string/agent_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView30"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_avatar"
+        android:drawableLeft="@drawable/ic_avatar"
+        android:hint="@string/agent_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView31"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_smartphone"
+        android:drawableLeft="@drawable/ic_smartphone"
+        android:hint="@string/mobile"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView32"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView31"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView38"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:drawableEnd="@drawable/ic_down"
+        android:drawableRight="@drawable/ic_down"
+        android:gravity="top|left"
+        android:hint="State"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:scrollbars="vertical"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView32"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView39"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:drawableEnd="@drawable/ic_down"
+        android:drawableRight="@drawable/ic_down"
+        android:hint="District"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintStart_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView33"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:gravity="top|left"
+        android:hint="@string/houses"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:scrollbars="vertical"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView35"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:gravity="top|left"
+        android:hint="@string/area_locality"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:scrollbars="vertical"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView46"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:gravity="top|left"
+        android:hint="Post"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:scrollbars="vertical"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView34"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:drawableStart="@drawable/ic_pincodes"
+        android:drawableLeft="@drawable/ic_pincodes"
+        android:hint="@string/pincode"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView46"
+        app:layout_constraintStart_toStartOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView36"
+        style="@style/PrimaryButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:text="@string/cancel"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView37"
+        style="@style/PrimaryButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:text="@string/save"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="54dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:button="@null"
+        android:background="@drawable/ic_edit"
+        android:paddingStart="@dimen/eight_dp"
+        android:paddingLeft="@dimen/eight_dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

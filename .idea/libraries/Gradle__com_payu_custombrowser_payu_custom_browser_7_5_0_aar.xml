@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.payu.custombrowser:payu-custom-browser:7.5.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f2f2393dc4c9678eff1e9b22459c205/jetified-payu-custom-browser-7.5.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f2f2393dc4c9678eff1e9b22459c205/jetified-payu-custom-browser-7.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f2f2393dc4c9678eff1e9b22459c205/jetified-payu-custom-browser-7.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f2f2393dc4c9678eff1e9b22459c205/jetified-payu-custom-browser-7.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.custombrowser/payu-custom-browser/7.5.0/65eca8d012f6730404466b2a160b64eb21e0ae1/payu-custom-browser-7.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.custombrowser/payu-custom-browser/7.5.0/3c219dfee8c83ed330a24d6f8d5dc4b8bc2f2512/payu-custom-browser-7.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

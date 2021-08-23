@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.imtuann:FloatingActionButtonExpandable:1.1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd509e5a769082ba7dff3fe7b33056a8/jetified-FloatingActionButtonExpandable-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd509e5a769082ba7dff3fe7b33056a8/jetified-FloatingActionButtonExpandable-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd509e5a769082ba7dff3fe7b33056a8/jetified-FloatingActionButtonExpandable-1.1.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.imtuann/FloatingActionButtonExpandable/1.1.2/f182a0a84533be1cc763c8ad888eed35683f36a/FloatingActionButtonExpandable-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

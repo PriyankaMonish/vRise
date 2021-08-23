@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/ivory"
+    android:layout_height="match_parent" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:background="@color/ivory" android:layout_height="wrap_content" android:layout_width="0dp" app:layout_constraintTop_toBottomOf="@+id/textView27" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:paddingBottom="18dp" android:paddingRight="8dp" android:paddingEnd="8dp" android:paddingTop="18dp" android:paddingLeft="8dp" android:paddingStart="8dp" android:minHeight="66dp" android:layout_marginTop="8dp" android:id="@+id/recyclerView"/>
+    <androidx.recyclerview.widget.RecyclerView android:background="@color/iron" android:layout_height="wrap_content" android:layout_width="0dp" app:layout_constraintTop_toBottomOf="@+id/recyclerView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:paddingBottom="18dp" android:paddingRight="30dp" android:paddingEnd="30dp" android:paddingTop="18dp" android:paddingLeft="30dp" android:paddingStart="30dp" android:minHeight="66dp" android:id="@+id/recyclerView3"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        android:id="@+id/textView25"
+        android:drawableStart="@drawable/ic_language"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        android:textSize="18sp"
+        android:text="Language"
+        android:padding="5dp" android:gravity="start"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp" android:drawableLeft="@drawable/ic_language"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+
+        android:background="@drawable/round_side_ffc502"/>
+    <TextView
+        android:layout_height="wrap_content"
+
+        android:layout_width="0dp" app:layout_constraintTop_toBottomOf="@+id/textView25" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="@+id/textView25" android:layout_marginTop="8dp" android:id="@+id/textView27" android:drawableStart="@drawable/ic_category" android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp" android:textSize="18sp" android:text="Categories" android:padding="5dp" android:gravity="start" android:drawablePadding="8dp" android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp" android:drawableLeft="@drawable/ic_category" android:layout_marginLeft="30dp" android:layout_marginStart="30dp"
+       android:background="@color/colorPrimary"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="0dp" android:layout_width="0dp" app:layout_constraintTop_toBottomOf="@+id/recyclerView3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp" android:id="@+id/recyclerView4" app:layout_constraintBottom_toTopOf="@+id/textView28" android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_height="41dp" android:layout_width="0dp" app:layout_constraintTop_toBottomOf="@+id/recyclerView4" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/textView28" android:text="Send request to Agent" android:padding="@dimen/eight_dp" android:layout_marginRight="30dp" android:layout_marginEnd="30dp" android:layout_marginLeft="30dp" android:layout_marginStart="30dp" style="@style/PrimaryButtonStyle" android:layout_marginBottom="24dp" app:layout_constraintBottom_toBottomOf="parent" android:visibility="visible"/>
+    <TextView android:layout_height="64dp" android:layout_width="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp" android:id="@+id/textView15" app:layout_constraintTop_toTopOf="@+id/recyclerView3" android:textSize="16sp" android:text="No Items Selected" android:gravity="center" android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/recyclerView3" android:visibility="gone" android:textColor="@color/iron"/>
+    <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/progressBar18" app:layout_constraintTop_toTopOf="parent" style="?android:attr/progressBarStyle" app:layout_constraintBottom_toBottomOf="parent" android:visibility="gone"/>
+    <ImageView android:background="@drawable/round_afd8" android:layout_height="48dp" android:layout_width="48dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="16dp" android:id="@+id/imageView6" app:layout_constraintTop_toTopOf="parent" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" android:visibility="invisible" android:src="@drawable/ic_filter" android:scaleType="centerInside"/>
+    <CheckBox android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/show"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

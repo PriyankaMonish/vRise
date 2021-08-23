@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+
+        <!--<include layout="@layout/bg_main"/>-->
+
+<!--        <com.google.android.material.appbar.AppBarLayout-->
+<!--            android:id="@+id/appbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#00000000"-->
+<!--            android:fitsSystemWindows="true"-->
+<!--            android:stateListAnimator="@null"-->
+<!--            android:translationZ="0.1dp"-->
+<!--            android:visibility="gone"-->
+<!--            app:elevation="0dp">-->
+
+<!--            <com.google.android.material.appbar.CollapsingToolbarLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#00000000"-->
+<!--                android:fitsSystemWindows="true"-->
+<!--                app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
+
+<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="#00000000">-->
+
+<!--                    &lt;!&ndash;                    <androidx.viewpager.widget.ViewPager&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:id="@+id/pager"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_width="0dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_height="234dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_marginLeft="5dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_marginTop="3dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_marginRight="5dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:minHeight="234dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintTop_toTopOf="parent"/>&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    <com.google.android.material.tabs.TabLayout&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:id="@+id/tab"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_width="match_parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_height="15dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:background="#00000000"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                            app:tabBackground="@drawable/slider_dots"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:tabGravity="center"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:tabIconTint="@color/item_select_bar"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:tabIndicatorHeight="0dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:tabPaddingStart="0dp"/>&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:id="@+id/textView8"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_width="0dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_marginTop="4dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:background="#FFF"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:paddingStart="8dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:paddingLeft="8dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:paddingTop="4dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:paddingBottom="8dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:text="Recommended Items"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:textColor="@color/black"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:textSize="12sp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintTop_toBottomOf="@+id/tab"/>&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    <androidx.recyclerview.widget.RecyclerView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:id="@+id/recyclerView2"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_width="0dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:background="#FFF"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:orientation="horizontal"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            android:overScrollMode="never"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                            app:layout_constraintTop_toBottomOf="@+id/textView8"/>&ndash;&gt;-->
+
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                <androidx.appcompat.widget.Toolbar-->
+<!--                    android:id="@+id/dmdlvndj"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    android:background="@null"-->
+<!--                    app:layout_collapseMode="pin" />-->
+
+<!--            </com.google.android.material.appbar.CollapsingToolbarLayout>-->
+
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/tit_layo"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#FFF"-->
+<!--                android:visibility="gone">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView254"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    android:textColor="#FFF"-->
+<!--                    android:textSize="14sp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                <com.tuann.floatingactionbuttonexpandable.FloatingActionButtonExpandable-->
+<!--                    android:id="@+id/textView106"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="bottom|right|end"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:layout_marginRight="4dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    android:foreground="?attr/selectableItemBackground"-->
+<!--                    android:visibility="visible"-->
+<!--                    app:fab_bg_color="@color/colorPrimaryNew"-->
+<!--                    app:fab_duration="100"-->
+<!--                    app:fab_expanded="true"-->
+<!--                    app:fab_padding="5dp"-->
+<!--                    app:fab_padding_text_icon="8dp"-->
+<!--                    app:fab_text_color="@android:color/white"-->
+<!--                    app:fab_text_size="14sp"-->
+<!--                    app:layout_collapseMode="pin"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView69"-->
+<!--                    android:layout_width="35dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:visibility="gone"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:srcCompat="@drawable/ic_filter"-->
+<!--                    tools:ignore="VectorDrawableCompat" />-->
+
+
+<!--                &lt;!&ndash;                app:layout_anchor="@+id/recyclerView2"&ndash;&gt;-->
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--        </com.google.android.material.appbar.AppBarLayout>-->
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/for_white"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/storesNearBy"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="8dp"
+                    tools:listitem="@layout/item_store"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:nestedScrollingEnabled="false"
+                    android:overScrollMode="never"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+<!--        <include-->
+<!--            layout="@layout/item_progress_sheet"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <FrameLayout
+            android:id="@+id/bottomSheet"
+            style="?attr/bottomSheetStyle"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:visibility="invisible"
+            app:behavior_hideable="true"
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <include layout="@layout/bootomsheet" />
+
+        </FrameLayout>
+
+        <include
+            layout="@layout/no_shop_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

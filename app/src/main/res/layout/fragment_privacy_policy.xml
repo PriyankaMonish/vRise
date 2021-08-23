@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/quantum_white_100"
+
+    android:layout_height="match_parent"
+    tools:context=".bazaar.ex.shop.PrivacyPolicy">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/green_drawer"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_illum_atomorum_hendrerit_te_mea_at_has_sint_vitae_volumus_vix_ut_minimum_deserunt_has_corpora_suavitate_ea_eam_ei_vidit_mollis_mei_no_suas_fugit_iusto_vix_nihil_populo_at_id_magna_suscipit_has_ei_vis_ancillae_molestiae_neglegentur_iuvaret_numquam_rationibus_id_pri_saepe_offendit_pertinax_ne_ius_doming_viderer_referrentur_nec_eu_sit_alii_dicam_an_iudico_elaboraret_quaerendum_nec_at_deleniti_percipit_deterruisset_usu_ea_laoreet_debitis_cum_id_assum_mundi_audire_vis_ea_ad_senserit_interesset_qui_nec_eu_amet_scaevola_oporteat_iudico_moderatius_pri_an_ad_eam_mutat_appellantur" />
+
+</FrameLayout>

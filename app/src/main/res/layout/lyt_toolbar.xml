@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/menu_bg1"
+    android:paddingLeft="@dimen/_8sdp"
+    android:paddingTop="@dimen/_3sdp"
+    android:paddingBottom="7dp">
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:foregroundTint="@color/quantum_white_text"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:drawableEnd="@drawable/ic_arrow_down"
+        android:drawablePadding="@dimen/_5sdp"
+        android:visibility="invisible"
+        android:gravity="center_vertical"
+        android:drawableTint="@color/quantum_white_text"
+        android:textColor="@color/quantum_white_text"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgMenu"
+        app:layout_constraintLeft_toRightOf="@+id/imgMenu"
+        app:layout_constraintTop_toTopOf="@+id/imgMenu" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/quantum_white_text"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgMenu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgMenu" />
+
+    <TextView
+        android:id="@+id/txtNotificationCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@color/quantum_white_text"
+        android:textSize="@dimen/_8sdp"
+        app:layout_constraintLeft_toLeftOf="@+id/imgNotification"
+        app:layout_constraintRight_toRightOf="@+id/imgNotification"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_15sdp"
+        android:src="@drawable/ic_notification"
+        android:tint="@color/quantum_white_text"
+        app:layout_constraintBottom_toBottomOf="@+id/imgMenu"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgMenu" />
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/bg_card_round"
+        android:drawableStart="@drawable/ic_new_search"
+        android:drawablePadding="@dimen/_3sdp"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:focusedByDefault="false"
+        android:hint="@string/search_any_thing"
+        android:padding="@dimen/_3sdp"
+        android:textColorHint="@color/silver_chalice"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/imgMenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

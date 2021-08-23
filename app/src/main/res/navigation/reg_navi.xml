@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/reg_navi" app:startDestination="@id/mobile">
+
+
+    <fragment android:id="@+id/registration"
+              android:name="com.vrise.bazaar.ex.shop.pages.registration.RegistrationFragment"
+              android:label="Registration"/>
+
+    <fragment android:id="@+id/verification_code"
+              android:name="com.vrise.bazaar.ex.shop.pages.registration.VerificationCode"
+              android:label="OtpVerification">
+
+        <action android:id="@+id/action_verification_code_to_registration"
+                app:destination="@id/registration" app:popUpTo="@+id/mobile"/>
+
+    </fragment>
+
+    <fragment android:id="@+id/mobile" android:name="com.vrise.bazaar.ex.shop.pages.registration.Mobile"
+              android:label="MobileVerification">
+        <action android:id="@+id/action_mobile_to_verification_code2" app:destination="@id/verification_code"/>
+    </fragment>
+
+</navigation>

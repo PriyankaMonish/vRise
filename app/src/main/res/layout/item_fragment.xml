@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:text="Store Name"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView78"
+            android:textStyle="bold"/>
+
+    <com.google.android.material.tabs.TabLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabLayout1"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tabIndicatorColor="@color/black"
+            app:tabBackground="@android:color/transparent"
+            app:tabTextColor="@android:color/darker_gray"
+            app:tabSelectedTextColor="@color/black"
+            android:background="@android:color/white"
+            app:tabIndicatorHeight="2dp"
+            app:tabIndicatorGravity="bottom"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@color/wild_sand"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+            android:layout_marginTop="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/recyclerView12"
+            android:layout_width="0dp"
+            android:overScrollMode="never"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

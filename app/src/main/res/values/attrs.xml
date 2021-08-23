@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="my_text_input_border_color" format="color"/>
+    <attr name="my_rounded_gradient_button_corner" format="dimension"/>
+    <attr name="my_rounded_gray_button_corner" format="dimension"/>
+    <attr name="my_rounded_red_button_padding" format="dimension"/>
+    <attr name="my_rounded_gradient_button_padding" format="dimension"/>
+    <attr name="my_rounded_gray_button_padding_left_right" format="dimension"/>
+    <attr name="my_rounded_gray_button_padding_top_bottom" format="dimension"/>
+    <attr name="my_text_input_border_corner" format="dimension"/>
+    <attr name="my_text_input_color_hint" format="color"/>
+    <attr name="my_text_input_color" format="color"/>
+    <attr name="my_text_input_padding" format="dimension"/>
+    <attr name="my_text_view_color" format="color"/>
+    <attr name="my_popup_corner" format="dimension"/>
+    <attr name="my_pop_up_elevation" format="dimension"/>
+
+    <!--<declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float"/>
+        <attr name="absoluteMaxValue" format="integer|float"/>
+        <attr name="singleThumb" format="boolean"/>
+    </declare-styleable>-->
+
+    <declare-styleable name="NewSlider">
+        <attr name="selected" format="reference" />
+        <attr name="unselected" format="reference" />
+        <attr name="indicatorSize" format="dimension" />
+        <attr name="intervalSecond" format="integer"/>
+        <attr name="hideIndicator" format="boolean"/>
+        <attr name="animateIndicators" format="boolean"/>
+        <attr name="loopSlide" format="boolean"/>
+        <attr name="defaultIndicators" format="integer">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CounterFab">
+        <attr name="badgeTextColor" format="color" />
+        <attr name="badgeBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.payu.upisdk:upisdk:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cb256e576c92f6476cb5621dcca0f62/jetified-upisdk-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cb256e576c92f6476cb5621dcca0f62/jetified-upisdk-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cb256e576c92f6476cb5621dcca0f62/jetified-upisdk-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.upisdk/upisdk/1.0.1/d8fb2a41b42b1908e3bca0f075998aecd31ee35a/upisdk-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

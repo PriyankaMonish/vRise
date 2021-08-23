@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView22"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="110dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:background="@drawable/bg_card_round_item_newww_new"
+    android:layout_margin="8dp"
+    android:layout_height="100dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgFavorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/five_dp"
+                    android:layout_marginEnd="@dimen/five_dp"
+                    android:src="@drawable/ic_heart_like"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgStordde"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_card_round_item"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/txtStoreNames"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView30"
+            android:shadowRadius="23"
+            android:shadowColor="@color/black"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" android:textSize="12sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/txtStoreNames"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:background="@drawable/bg_card_round_item_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgStordde" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:id="@+id/containers"-->
+<!--        android:layout_width="110dp"-->
+<!--  android:layout_margin="8dp"-->
+<!--    app:layout_constraintBottom_toTopOf="@id/txtStoreNames"-->
+<!--    app:layout_constraintCircleRadius="@dimen/_8sdp"-->
+<!--        android:layout_height="92dp"-->
+<!--        android:layout_marginStart="@dimen/_5sdp"-->
+<!--       >-->
+
+
+<!--&lt;!&ndash;    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/imgStordde"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="70dp"&ndash;&gt;-->
+
+<!--&lt;!&ndash;        android:adjustViewBounds="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:scaleType="centerCrop"&ndash;&gt;-->
+
+<!--&lt;!&ndash;        app:layout_constraintBottom_toTopOf="@+id/txtStoreNames"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/txtDistance"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:drawableStart="@drawable/ic_location"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingLeft="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingTop="@dimen/three_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingRight="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingBottom="@dimen/three_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="@{dataItems.rating.toString()}"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@color/quantum_white_text"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="@dimen/_9sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:visibility="invisible"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="@+id/txtRatings"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="@+id/imgStordde"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="@+id/txtRatings" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/imgFavorite"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="14dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="14dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/ic_heart_like"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/txtRatings"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="@dimen/five_dp"&ndash;&gt;-->
+
+<!--&lt;!&ndash;            android:paddingTop="@dimen/three_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingRight="@dimen/five_dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/quantum_white_text"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_9sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:visibility="invisible"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toTopOf="@+id/txtStoreNames"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/txtStoreNames"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/bg_card_round_item_text"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingBottom="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:inputType="textCapWords"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="@color/colorPrimary"&ndash;&gt;-->
+
+<!--&lt;!&ndash;            android:textColor="@color/quantum_white_text"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_13sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintLeft_toLeftOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintRight_toRightOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/imgStordde" />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    </androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card12"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="0dp"-->
+
+
+<!--        app:cardElevation="2dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/txtStoreNames"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imgStordde"-->
+<!--            android:layout_width="110dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/bg_card_round_item"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="1.0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/_3sdp"-->
+<!--            android:layout_marginTop="@dimen/_3sdp"-->
+<!--            android:gravity="center"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="@dimen/_10sdp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/imageView4"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imgFavorite"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="@dimen/_4sdp"-->
+<!--            android:layout_marginTop="@dimen/five_dp"-->
+<!--            android:layout_marginEnd="@dimen/five_dp"-->
+<!--            android:src="@drawable/ic_heart_like"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtStoreNames"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:background="@drawable/bg_card_round_item_text"-->
+<!--        android:backgroundTint="@color/colorPrimary"-->
+<!--        android:gravity="center"-->
+<!--        android:inputType="textCapWords"-->
+
+<!--        android:paddingBottom="2dp"-->
+<!--        android:textColor="@color/quantum_white_text"-->
+<!--        android:textSize="@dimen/_13sdp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/card12" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

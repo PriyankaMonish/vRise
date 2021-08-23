@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/quantum_white_100"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView385"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Scan QR Code"
+        android:textSize="18sp"
+        android:textColor="@color/green_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView387"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginEnd="24dp"
+        android:text="Place QR code inside the frame to scan please avoid shake to get quick results"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView385" />
+
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_qr_scan_svg"
+        app:autoFocusButtonColor="@android:color/holo_green_dark"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/holo_green_dark"
+        app:flashButtonVisible="true"
+        app:frameAspectRatioHeight="1"
+
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameSize="0.75"
+        app:frameThickness="0dp"
+        app:layout_constraintBottom_toTopOf="@id/scanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView387"
+        app:maskColor="@color/quantum_white_100" />
+
+
+    <Button
+        android:id="@+id/scanbutton"
+        android:layout_width="0dp"
+        android:text="Scan QR Code"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

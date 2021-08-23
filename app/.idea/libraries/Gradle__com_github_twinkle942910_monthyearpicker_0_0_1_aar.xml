@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.twinkle942910:monthyearpicker:0.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49a2411745450404c5feb44f25f9a990/jetified-monthyearpicker-0.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49a2411745450404c5feb44f25f9a990/jetified-monthyearpicker-0.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.twinkle942910/monthyearpicker/0.0.1/9b56ede46ef212842f130d0b45e743ebfa192bb5/monthyearpicker-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,272 @@
+{
+  "project_info": {
+    "project_number": "169141060693",
+    "firebase_url": "https://payperall-5f0d7.firebaseio.com",
+    "project_id": "payperall-5f0d7",
+    "storage_bucket": "payperall-5f0d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:d14c00f912c1331cc480dc",
+        "android_client_info": {
+          "package_name": "com.android.agent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:3d6ab26904e68def",
+        "android_client_info": {
+          "package_name": "com.ibr.bazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:30711ac700ab8fe0",
+        "android_client_info": {
+          "package_name": "com.ibr.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:55499a91d8a8c315",
+        "android_client_info": {
+          "package_name": "com.ibr.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:ca3b782729967edb",
+        "android_client_info": {
+          "package_name": "com.ibrbazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:5a6c849b1ac62658c480dc",
+        "android_client_info": {
+          "package_name": "com.organic.network"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:5884242d4205bb50c480dc",
+        "android_client_info": {
+          "package_name": "com.tradopay.bazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:0051d0ea9aae4e33c480dc",
+        "android_client_info": {
+          "package_name": "com.tradopay.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169141060693:android:187b36afc968bd6dc480dc",
+        "android_client_info": {
+          "package_name": "com.vrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuuh_ShEHZ3iNafxBqUzwG7VhCULD_y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169141060693-3utl4ss8r45at6i7kd7tqk5pouedc9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

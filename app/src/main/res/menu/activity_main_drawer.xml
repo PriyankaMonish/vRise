@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/shop_category"
+        android:title="@string/shop_by_category" />
+    <item
+        android:id="@+id/update_profile"
+        android:title="@string/update_profile" />
+    <item
+        android:id="@+id/change_delivery_address"
+        android:title="@string/change_delivery_address" />
+    <item
+        android:id="@+id/call_customer_care"
+        android:title="@string/call_customer_care" />
+    <item
+        android:id="@+id/frequently_asked_questions"
+        android:title="@string/frequently_asked_questions" />
+    <item
+        android:id="@+id/terms_and_condition"
+        android:title="@string/terms_and_condition" />
+    <item
+        android:id="@+id/privacy_policy"
+        android:title="@string/privacy_policy" />
+    <item
+        android:id="@+id/share_vrise_app"
+        android:title="@string/share_vrise_app" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+</menu>

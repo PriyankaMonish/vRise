@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minHeight="77dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/manda_view"
+                android:layout_width="3dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryNew" />
+
+        <com.github.vipulasri.timelineview.TimelineView
+                android:id="@+id/time_marker"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:endLineColor="@color/colorPrimaryNew"
+                app:linePadding="0dp"
+                app:lineWidth="3dp"
+                app:marker="@drawable/indicator_circle_selected_orange"
+                app:markerInCenter="false"
+                app:markerSize="12dp"
+                app:startLineColor="@color/colorPrimaryNew" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+        <TextView
+                android:id="@+id/textView276"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="bdsvkjbsvkdfvslfnvkjdf"
+                android:textColor="@color/colorPrimaryNew"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/textView275"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:textSize="12sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView276" />
+
+        <TextView
+                android:id="@+id/textView280"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textAllCaps="true"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="@+id/textView276"
+                app:layout_constraintTop_toBottomOf="@+id/textView275" />
+
+        <TextView
+                android:id="@+id/imageView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/item_subscriber"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="2dp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:backgroundTint="#F55352"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView275" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

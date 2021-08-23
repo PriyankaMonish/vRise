@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/for_white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bazaar.ex.shop.pages.main.OfferListView">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:spanCount="3"
+        android:id="@+id/offer_recycle"
+        android:layout_margin="8dp"
+        android:background="@drawable/for_white"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/item_most_popular_list"
+        android:layout_height="match_parent" />
+</FrameLayout>

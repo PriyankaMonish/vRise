@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#0C986B</color>
+    <color name="colorPrimaryTransparent">#E60C986B</color>
+    <color name="colorPrimaryDark">#107051</color>
+    <color name="colorAccent">#0C986B</color> <!--FF4081-->
+    <color name="colorPrimaryNew" tools:ignore="MissingDefaultResource">#0C986B</color>
+    <color name="colorPrimaryDarkNew">#0C986B</color>
+    <color name="colorAccentNew">#0C986B</color>
+    <color name="iron">#dbdddd</color>
+    <color name="curious_blue">#1da6d2</color>
+    <color name="green_drawer">#07c0a1</color>
+    <color name="green_">#11d979</color>
+    <color name="mine_shaft">#383838</color>
+    <color name="mine_shaft_hint">#6c6c6c</color>
+    <color name="lochmara">#0d80dc</color>
+    <color name="bright_turquoise">#0adfe3</color>
+    <color name="tall_poppy">#c62828</color>
+    <color name="silver_chalice">#9e9e9e</color>
+    <color name="wild_sand">#f4f4f4</color>
+    <color name="drawer_selected">#34afd8</color>
+    <color name="blacker">#222222</color>
+    <color name="denim_">#1181d9</color>
+    <color name="ivory">#FFF</color>
+    <color name="text_heading">#7f7f7f</color>
+    <color name="text_sub">#afafaf</color>
+    <color name="debit_red">#FF4445</color>
+    <color name="credit_green">#9ACC01</color>
+    <color name="pale_lavender">#d5d3fb</color>
+    <color name="lavender_bush">#fdebf7</color>
+    <color name="A60dfb4">#ffc402</color>
+    <color name="light">#ffd035</color>
+    <color name="cb_textColor">#404040</color>
+    <color name="pend_green">#8ba85b</color>
+    <color name="snowymint">#d5fcd7</color>
+    <color name="default_circle_indicator_stroke_color">#DDDDDD</color>
+</resources>

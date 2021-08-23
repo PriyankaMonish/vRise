@@ -1,0 +1,317 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VRise</string>
+    <string name="title_activity_container_shop">ContainerShop</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_container">Container</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <!--<string name="submit">Submit</string>-->
+    <string name="resend_otp">Resend OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="agent">Agent</string>
+    <string name="subscriber">Subscriber</string>
+    <string name="please_enter_your_agent_code">Enter Your Agent Code</string>
+    <string name="agent_code">Agent Code</string>
+    <string name="agent_name">AGENT NAME / AGENCY NAME</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="add">Add</string>
+    <string name="address">Address</string>
+
+    <string name="please_contact_your_agent">Please Contact Your Agent</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_sub_container">SubContainer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="pay">PAY</string>
+    <string name="register">Register</string>
+    <string name="avatar">avatar</string>
+    <string name="no">No</string>
+
+    <string name="yes">Yes</string>
+    <string name="please_enter_marketing_executive_code">Please Enter Marketing Executive Code</string>
+    <string name="Pay_Per_All_Administrator_Will_Contact_You">IBR Administrator Will Contact You</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="route_name">Route Name</string>
+    <string name="route_area">Route Area</string>
+    <string name="reminder">Reminder</string>
+    <string name="billing">Billing</string>
+    <string name="profile">Profile</string>
+    <string name="due">Due</string>
+    <string name="new_subscriber_request">New Subscriber Request</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="rupees">₹</string>
+    <string name="logo">payToLogo</string>
+    <string name="caps_otp">OTP</string>
+    <string name="phone_number_needed">Phone Number Needed</string>
+    <string name="home">Home</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="total_dues_collection">Total Dues Collection</string>
+    <string name="add_route">Add Route</string>
+    <string name="mobile_subscriber_code_subscriber_name">
+        <font size="11">Mobile / Subscriber Code / Subscriber Name</font>
+    </string>
+    <string name="title_activity_notification_container">NotificationContainer</string>
+    <string name="noti_channel_default">Primary Channel</string>
+    <string name="noti_channel_second">Secondary Channel</string>
+    <string name="subscriber_code">Subscriber Code</string>
+    <string name="map_to_route">Map to Route</string>
+    <string name="loca">Loca</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="no_subscribers_found">No subscribers found</string>
+    <string name="edit_route">Edit Route</string>
+    <string name="Thanks_for_Filling_up_the_details_please_contact_your_agent_for_registration_approval">Thanks for
+        Filling up the details. Please contact your agent for registration approval
+    </string>
+    <string name="change">Update</string>
+    <string name="notification">notification</string>
+    <string name="houses">House Name / Door No</string>
+    <string name="title_home">Home</string>
+
+    <string-array name="permissions_to_grant">
+        <item>Manifest.permission.ACCESS_NETWORK_STATE</item>
+        <item>Manifest.permission.CAMERA</item>
+        <item>Manifest.permission.WRITE_EXTERNAL_STORAGE</item>
+        <item>Manifest.permission.READ_EXTERNAL_STORAGE</item>
+        <item>Manifest.permission.ACCESS_FINE_LOCATION</item>
+        <!--
+        <item>Manifest.permission.READ_PHONE_STATE</item>
+        <item>Manifest.permission.RECEIVE_SMS</item>
+        <item>Manifest.permission.READ_SMS</item>
+        -->
+    </string-array>
+
+    <string-array name="drop">
+        <item>1 day</item>
+        <item>Last 7 days</item>
+        <item>Last 14 days</item>
+        <item>Last 20 days</item>
+        <item>Last 30 days</item>
+        <item>Last 60 days</item>
+        <item>Last 90 days</item>
+        <item>Last 120 days</item>
+    </string-array>
+    <string name="place_details">Place Details</string>
+    <string name="title_activity_shop_main">ShopMainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="cart">Cart</string>
+    <string name="favourite">Favourite</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
+    <string name="section_format">Explore All: %1$d</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="nabigation_home" tools:ignore="ExtraTranslation">
+        <font size="8">Home</font>
+    </string>
+    <string name="navigation_cart">
+        <font size="8">Cart</font>
+    </string>
+    <string name="naviagtion_orders">
+        <font size="8">My Orders</font>
+    </string>
+    <string name="navigation_wallet">
+        <font size="8">Wallet</font>
+    </string>
+    <string name="navigatopnj_more">
+        <font size="8">More</font>
+    </string>
+    <string name="no_internet">Check your internet connectivity</string>
+    <string name="no_server">Server Unavailable</string>
+    <string name="not_a_phone_number">Phone number invalid</string>
+    <string name="cannot_read_sms">not able to read sms</string>
+    <string name="house_name">House Name / Door No</string>
+    <string name="area_locality">Area / Locality / Street</string>
+    <string name="post">Post</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="news">Newspaper Bills</string>
+    <string name="shopping">Shopping</string>
+    <string name="add_delivery_address">Add Delivery Address</string>
+    <string name="search_for_your_location">Search for your location</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_to_paytoall">Welcome To IBR BAZAAR</string>
+    <string name="select_type">Select Type</string>
+    <string name="your_location">Your Location</string>
+    <string name="delivery_address">DELIVERY ADDRESS</string>
+    <string name="search_for_products_and_more">Search for products and more</string>
+    <string name="shop_by">Shop by</string>
+    <string name="category">Category</string>
+    <string name="deal_of_the_day">Deal Of the Day</string>
+    <string name="view_all">View All</string>
+    <string name="categories">Categories</string>
+    <string name="shopcategories">Shop By Category</string>
+    <string name="more"><![CDATA[More >]]></string>
+    <string name="type_your_keyword_heres">Type your keyword here</string>
+    <string name="Notifications">Notifications</string>
+    <string name="title">Title</string>
+    <string name="subtitle">subtitle</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="applied">Applied</string>
+    <string name="added">ADDED</string>
+    <string name="please_select_the_fish_icon_to_add_as_favourite">Add products as favourites</string>
+    <string name="_136_items">136 Items</string>
+
+    <!-- : Remove or change this placeholders text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_user_type">Choose User Type</string>
+    <string name="agent_registration">Agent Registration</string>
+    <string name="subscriber_registration">Subscriber Registration</string>
+    <string name="enter_agent_code">Enter Agent Code</string>
+
+    <string name="about">About</string>
+    <string name="select">Select</string>
+    <string name="choose_your_time_slot">Choose Your Time Slot</string>
+    <string name="select_delivery_time">Select delivery time</string>
+    <string name="more_products">More Products</string>
+    <string name="registration">Registration</string>
+    <string name="subscriber_name">Subscriber Name</string>
+    <string name="select_date">Select date</string>
+    <string name="name">Name</string>
+    <string name="proceed_to_pay">PROCEED TO PAY</string>
+    <string name="permission_denied_explanation">Location Permission Not Available</string>
+    <string name="permission_rationale">Need Permission to continue</string>
+    <string name="no_location_detected">No Location Detected</string>
+    <string name="no_geocoder_available">Geocoder Not Available</string>
+    <string name="gps_not_enabled">Enable Gps</string>
+    <string name="shop_search">Search for shops</string>
+    <string name="product_search">Search for products</string>
+    <string name="fill_madatory_fields">Please fill all mandatory fields</string>
+    <string name="no_deviceid">Not able to get device id. Update your google apps and try after some time</string>
+    <string name="search_for_shops">Search For Shops</string>
+    <string name="search_for_products">Search For Products</string>
+    <string name="identifying_location">Identifying Location</string>
+    <string name="title_activity_not_working">Working</string>
+    <string name="MR_Error_text">Error</string>
+    <string name="MR_Tap_retry_text">Tap above button to retry</string>
+    <string name="could_not_receive_data">Could not receive data</string>
+    <string name="payment_failre">Payment Failed</string>
+    <string name="issue_with_payment_amount_will_be_refunded">amount will be refunded within a week</string>
+    <string name="total_bill_amount">Total Bill Amount</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="veg">Veg</string>
+    <string name="todo">TODO</string>
+    <string name="bill_payment">Bill Payment</string>
+    <string name="shop_by_category">Shop By Category</string>
+    <string name="search_any_thing">Search shops near by</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_delivery_address">Change Delivery Address</string>
+    <string name="call_customer_care">Call Customer Care</string>
+    <string name="frequently_asked_questions">Frequently asked questions</string>
+    <string name="terms_and_condition">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_vrise_app">Share Viaronline App</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="favorite_shops">Favorite Shops</string>
+    <string name="storesNearBy">Stores nearby</string>
+
+    <string name="what_does_lorem_ipsum_mean_derived_from_latin_dolorem_ipsum_pain_itself_lorem_ipsum_is_filler_text_used_by_publishers_and_graphic_designers_used_to_demonstrate_graphic_elements_let_s_say_you_re_drafting_the_ultimate_content_marketing_strategy_lorem_ipsum_is_placeholder_text_that_stands_in_for_meaningful_content_it_allows_designers_to_focus_on_getting_the_graphical_elements_such_as_typography_font_and_page_layout_in_place_first_before_you_move_forward_with_the_rest_of_your_strategy_before_publication_you_replace_the_lorem_ipsum_text_with_your_polished_high_quality_content_typically_lorem_ipsum_text_consists_of_a_jumbled_section_of_de_finibus_bonorum_et_malorum_a_first_century_philosophical_text_written_by_cicero_words_are_added_modified_or_removed_to_make_it_nonsensical_one_of_the_main_benefits_of_using_lorem_ipsum_is_that_it_can_be_easily_generated_and_it_takes_the_pressure_off_designers_to_create_meaningful_text_instead_they_can_focus_on_crafting_the_best_website_possible_and_add_in_content_after_a_page_has_been_designed_since_the_1500_s_when_a_printer_jumbled_a_gallery_of_type_to_create_a_type_specimen_book_lorem_ipsum_has_been_the_industry_standard_for_dummy_text_today_a_variety_of_software_can_create_random_text_that_resembles_lorem_ipsum_for_example_apple_s_pages_and_keynote_software_use_scrambled_placeholder_text_and_lorem_ipsum_is_featured_on_google_docs_wordpress_and_microsoft_office_word">What does Lorem Ipsum mean?
+        Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements. Let\'s say you\'re drafting the ultimate content marketing strategy. Lorem Ipsum is placeholder text that stands in for meaningful content. It allows designers to focus on getting the graphical elements such as typography, font, and page layout in place first, before you move forward with the rest of your strategy. Before publication, you replace the Lorem Ipsum text with your polished, high quality content. Typically, Lorem Ipsum text consists of a jumbled section of De finibus bonorum et malorum, a first century, philosophical text written by Cicero. Words are added, modified, or removed to make it nonsensical. One of the main benefits of using Lorem Ipsum is that it can be easily generated, and it takes the pressure off designers to create meaningful text. Instead, they can focus on crafting the best website possible, and add in content after a page has been designed. Since the 1500’s, when a printer jumbled a gallery of type to create a type specimen book, Lorem Ipsum has been the industry standard for dummy text. Today, a variety of software can create random text that resembles Lorem Ipsum. For example, Apple’s Pages and Keynote software use scrambled placeholder text. And Lorem Ipsum is featured on Google Docs, WordPress, and Microsoft Office Word.</string>
+    <string name="lorem_ipsum_dolor_sit_amet_illum_atomorum_hendrerit_te_mea_at_has_sint_vitae_volumus_vix_ut_minimum_deserunt_has_corpora_suavitate_ea_eam_ei_vidit_mollis_mei_no_suas_fugit_iusto_vix_nihil_populo_at_id_magna_suscipit_has_ei_vis_ancillae_molestiae_neglegentur_iuvaret_numquam_rationibus_id_pri_saepe_offendit_pertinax_ne_ius_doming_viderer_referrentur_nec_eu_sit_alii_dicam_an_iudico_elaboraret_quaerendum_nec_at_deleniti_percipit_deterruisset_usu_ea_laoreet_debitis_cum_id_assum_mundi_audire_vis_ea_ad_senserit_interesset_qui_nec_eu_amet_scaevola_oporteat_iudico_moderatius_pri_an_ad_eam_mutat_appellantur">Lorem ipsum dolor sit amet, illum atomorum hendrerit te mea. At has sint vitae volumus, vix ut minimum deserunt, has corpora suavitate ea. Eam ei vidit mollis, mei no suas fugit iusto, vix nihil populo at. Id magna suscipit has, ei vis ancillae molestiae neglegentur, iuvaret numquam rationibus id pri. Saepe offendit pertinax ne ius, doming viderer referrentur nec eu. Sit alii dicam an, iudico elaboraret quaerendum nec at. Deleniti percipit deterruisset usu ea, laoreet debitis cum id, assum mundi audire vis ea. Ad senserit interesset qui. Nec eu amet scaevola oporteat, iudico moderatius pri an. Ad eam mutat appellantur.</string>
+    <string name="sea_fish"><![CDATA[Sea & Fish]]></string>
+    <string name="change_address">Change Address</string>
+    <string name="your_order_has_been_given_to_the_seller_for_acceptance_seller_will_be_notified_if_any_product_or_quantity_availability_with_in_seconds">Your order has been given to the seller for acceptance. Seller will be notified if any product or quantity availability with in seconds.</string>
+
+</resources>

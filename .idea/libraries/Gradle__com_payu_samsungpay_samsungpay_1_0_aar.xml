@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.payu.samsungpay:samsungpay:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c189e6934e5b6c94a95b1e52f856526/jetified-samsungpay-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c189e6934e5b6c94a95b1e52f856526/jetified-samsungpay-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c189e6934e5b6c94a95b1e52f856526/jetified-samsungpay-1.0/jars/libs/walletsdk-unspecified.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c189e6934e5b6c94a95b1e52f856526/jetified-samsungpay-1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.samsungpay/samsungpay/1.0/aa37570aae66a5c5d45873f5df17b674b0220562/samsungpay-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.samsungpay/samsungpay/1.0/3d336c72294bd52973565e96ba11f53e6ea3b556/samsungpay-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="0dp" app:srcCompat="@drawable/helper_overlay"
+                android:id="@+id/imageView22"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+        <TextView
+                android:gravity="center"
+                android:text="12%\noff"
+                android:layout_width="48dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/bg_round_red_item"
+                android:layout_height="48dp"
+                android:id="@+id/textView79"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+        <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/ic_vegetarian"
+                android:id="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+                android:text="Nandini"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:id="@+id/textView80"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView22"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+        />
+        <TextView
+                android:text="Pure Cow Ghee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView81"
+                app:layout_constraintTop_toBottomOf="@+id/textView80" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView22" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:textColor="@color/black"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:background="@drawable/rect_shape_drop"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/textView81"
+                app:layout_constraintStart_toEndOf="@+id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/constraintLayout7"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp">
+
+            <TextView
+                    android:text="1L - Pouch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView82"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView24" android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp" android:textSize="14sp"/>
+            <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="16dp"
+                    app:srcCompat="@drawable/ic_arrow_down"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:id="@+id/imageView24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginBottom="6dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+                android:text="MRP :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView83" app:layout_constraintStart_toStartOf="@+id/constraintLayout7"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
+                android:textSize="12sp"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView84" app:layout_constraintStart_toEndOf="@+id/textView83"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
+                app:layout_constraintEnd_toStartOf="@+id/button11"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        <Button
+                android:text="@string/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button11"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:minWidth="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintStart_toEndOf="@+id/textView84"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
+                android:layout_marginBottom="16dp"/>
+        <TextView
+                android:text="Rs 400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView92"
+                app:layout_constraintTop_toBottomOf="@+id/textView83"
+                app:layout_constraintStart_toStartOf="@+id/textView83"
+                android:textColor="@color/black" android:textStyle="bold"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/button11"
+                android:layout_marginRight="8dp"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

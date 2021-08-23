@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView337"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:gravity="start"
+        android:text="item"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView355"
+        app:layout_constraintStart_toEndOf="@+id/checkBox10" />
+
+    <TextView
+        android:id="@+id/textView338"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:gravity="start"
+        android:text="qty"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView355"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView339"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+
+        android:gravity="start"
+        android:text="price"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView397"
+        app:layout_constraintStart_toEndOf="@+id/textView338"
+        app:layout_constraintTop_toTopOf="@+id/textView338" />
+
+    <TextView
+        android:id="@+id/textView355"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+
+        android:gravity="start"
+        android:text="unit"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView337" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="15dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView397"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView397"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_red" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textView337"
+        app:layout_constraintEnd_toStartOf="@+id/textView337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView337"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView394"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/debit_red"
+        android:textAllCaps="true"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView337"
+        app:layout_constraintStart_toStartOf="@+id/textView337"
+        app:layout_constraintTop_toBottomOf="@+id/textView337" />
+
+    <TextView
+        android:id="@+id/textView397"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="total"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView339"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

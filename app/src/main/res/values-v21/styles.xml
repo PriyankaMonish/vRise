@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Theme.AppCompat.Light.NoActionBar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="my_text_input_border_color">@color/iron</item>
+        <item name="my_text_input_color">@color/mine_shaft</item>
+        <item name="my_text_input_color_hint">@color/mine_shaft_hint</item>
+        <item name="my_text_view_color">@color/mine_shaft</item>
+        <item name="my_text_input_padding">@dimen/eight_dp</item>
+        <item name="my_rounded_red_button_padding">@dimen/eight_dp</item>
+        <item name="my_rounded_gray_button_padding_left_right">@dimen/sixteen_dp</item>
+        <item name="my_rounded_gray_button_padding_top_bottom">@dimen/five_dp</item>
+        <item name="my_rounded_gradient_button_padding">@dimen/two_dp</item>
+        <item name="my_text_input_border_corner">@dimen/eight_dp</item>
+        <item name="my_rounded_gray_button_corner">@dimen/five_dp</item>
+        <item name="my_rounded_gradient_button_corner">@dimen/five_dp</item>
+        <item name="my_popup_corner">@dimen/eight_dp</item>
+        <item name="my_pop_up_elevation">@dimen/five_dp</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggleStyle</item>
+        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:colorBackground">@color/quantum_white_100</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+
+
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blacker</item>
+    </style>
+</resources>

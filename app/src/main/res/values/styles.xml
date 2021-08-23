@@ -1,0 +1,211 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="my_text_input_border_color">@color/iron</item>
+        <item name="my_text_input_color">@color/mine_shaft</item>
+        <item name="my_text_input_color_hint">@color/mine_shaft_hint</item>
+        <item name="my_text_view_color">@color/mine_shaft</item>
+        <item name="my_text_input_padding">@dimen/eight_dp</item>
+        <item name="my_rounded_red_button_padding">@dimen/eight_dp</item>
+        <item name="my_rounded_gray_button_padding_left_right">@dimen/sixteen_dp</item>
+        <item name="my_rounded_gray_button_padding_top_bottom">@dimen/five_dp</item>
+        <item name="my_rounded_gradient_button_padding">@dimen/two_dp</item>
+        <item name="my_text_input_border_corner">@dimen/eight_dp</item>
+        <item name="my_rounded_gray_button_corner">@dimen/five_dp</item>
+        <item name="my_rounded_gradient_button_corner">@dimen/five_dp</item>
+        <item name="my_popup_corner">@dimen/eight_dp</item>
+        <item name="my_pop_up_elevation">@dimen/five_dp</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggleStyle</item>
+        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:colorBackground">@color/quantum_white_100</item>
+
+
+        <!--Shop-->
+        <item name="android:fontFamily">@font/circular_android</item>
+        <item name="android:typeface">monospace</item>
+
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimaryNew</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNew</item>
+        <item name="colorAccent">@color/colorAccentNew</item>
+    </style>
+
+    <style name="CustomChipSchedule" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/bg_schedule_chip_state_list</item>
+        <item name="android:textColor">@color/tx_schedule_chip_state_list</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="ChipTextAppearance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:fontFamily">normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:colorBackground">@color/quantum_white_100</item>
+
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+    <style name="Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Alert.Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@android:color/white</item>
+    </style>
+
+    <style name="TertiaryButtonStyle" parent="">
+        <item name="android:background">@drawable/app_background</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_button_blue</item>
+    </style>
+
+    <style name="SecondaryButtonStyle" parent="">
+        <item name="android:padding">?attr/my_rounded_red_button_padding</item>
+        <item name="android:background">@drawable/my_bg_rounded_red_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="RouteItemStyle" parent="">
+        <item name="android:padding">?attr/my_rounded_red_button_padding</item>
+        <item name="android:background">@drawable/app_background</item>
+    </style>
+
+    <style name="SubscriberItemStyle" parent="">
+        <item name="android:padding">?attr/my_rounded_red_button_padding</item>
+        <item name="android:background">@drawable/app_background</item>
+    </style>
+
+    <style name="PrimaryButtonStyle" parent="">
+        <item name="android:padding">?attr/my_rounded_gradient_button_padding</item>
+        <item name="android:background">@drawable/app_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">41dp</item>
+    </style>
+
+    <style name="PrimaryButtonStyleFlipped" parent="">
+        <item name="android:padding">?attr/my_rounded_gradient_button_padding</item>
+        <item name="android:background">@drawable/app_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">41dp</item>
+    </style>
+
+    <style name="SelectedItems" parent="">
+        <item name="android:padding">?attr/my_rounded_gradient_button_padding</item>
+        <item name="android:background">@drawable/my_bg_rounded_grey_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">41dp</item>
+    </style>
+
+    <style name="SelectMonthDropDown" parent="">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/app_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">left|center</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/my_input_text_style</item>
+        <item name="android:textColor">?attr/my_text_input_color</item>
+        <item name="android:textColorHint">?attr/my_text_input_color_hint</item>
+        <item name="android:padding">?attr/my_text_input_border_corner</item>
+    </style>
+
+    <style name="MyDrawerArrowToggleStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="MyToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:textColorPrimary">@color/ivory</item>
+        <item name="android:textColorSecondary">@color/ivory</item>
+        <item name="android:background">@drawable/app_background</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:colorBackground">@color/quantum_white_100</item>
+
+    </style>
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:colorBackground">@color/quantum_white_100</item>
+
+    </style>
+
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>

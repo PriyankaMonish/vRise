@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/quantum_white_100"
+    android:layout_height="match_parent"
+    tools:context=".bazaar.ex.shop.pages.shop.FrequentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/green_drawer"
+        android:textSize="@dimen/_14sdp"
+        android:padding="@dimen/_12sdp"
+        android:text="@string/what_does_lorem_ipsum_mean_derived_from_latin_dolorem_ipsum_pain_itself_lorem_ipsum_is_filler_text_used_by_publishers_and_graphic_designers_used_to_demonstrate_graphic_elements_let_s_say_you_re_drafting_the_ultimate_content_marketing_strategy_lorem_ipsum_is_placeholder_text_that_stands_in_for_meaningful_content_it_allows_designers_to_focus_on_getting_the_graphical_elements_such_as_typography_font_and_page_layout_in_place_first_before_you_move_forward_with_the_rest_of_your_strategy_before_publication_you_replace_the_lorem_ipsum_text_with_your_polished_high_quality_content_typically_lorem_ipsum_text_consists_of_a_jumbled_section_of_de_finibus_bonorum_et_malorum_a_first_century_philosophical_text_written_by_cicero_words_are_added_modified_or_removed_to_make_it_nonsensical_one_of_the_main_benefits_of_using_lorem_ipsum_is_that_it_can_be_easily_generated_and_it_takes_the_pressure_off_designers_to_create_meaningful_text_instead_they_can_focus_on_crafting_the_best_website_possible_and_add_in_content_after_a_page_has_been_designed_since_the_1500_s_when_a_printer_jumbled_a_gallery_of_type_to_create_a_type_specimen_book_lorem_ipsum_has_been_the_industry_standard_for_dummy_text_today_a_variety_of_software_can_create_random_text_that_resembles_lorem_ipsum_for_example_apple_s_pages_and_keynote_software_use_scrambled_placeholder_text_and_lorem_ipsum_is_featured_on_google_docs_wordpress_and_microsoft_office_word" />
+
+</FrameLayout>

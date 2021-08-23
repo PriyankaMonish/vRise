@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/ivory">
+
+    <TextView
+        android:id="@+id/textView84"
+      android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:drawablePadding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableStart="@drawable/ic_language"
+        android:drawableLeft="@drawable/ic_language"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:hint="Language"
+        android:padding="@dimen/eight_dp"
+        android:textColorHint="@color/ivory"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView85"
+
+     android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_category"
+        android:drawableLeft="@drawable/ic_category"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:hint="Categories"
+        android:padding="@dimen/eight_dp"
+        android:textColorHint="@color/ivory"
+        android:textSize="18sp"
+        android:drawablePadding="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton6"
+        app:layout_constraintStart_toStartOf="@+id/textView84"
+        app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/green_drawer"
+        app:fabCustomSize="41dp"
+        app:fabSize="mini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView86"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="24dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView12"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerView12"
+        app:layout_constraintStart_toStartOf="@+id/recyclerView12"
+        app:layout_constraintTop_toTopOf="@+id/recyclerView12" />
+
+    <TextView
+        android:id="@+id/textView86"
+        style="@style/PrimaryButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/cancel"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView87"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView87"
+        style="@style/PrimaryButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/save"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView86"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView86" />
+
+    <ProgressBar
+        android:id="@+id/progressBar22"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView84"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton6"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton6"
+        app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+    <ProgressBar
+        android:id="@+id/progressBar23"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView85"
+        app:layout_constraintEnd_toEndOf="@+id/textView85"
+        app:layout_constraintStart_toStartOf="@+id/progressBar22"
+        app:layout_constraintTop_toTopOf="@+id/textView85" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="300dp"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_gravity="center"
+                                                   android:background="@color/ivory">
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Are you sure ?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Changing your mobile number will log you out off the app, you will have to login using the updated mobile number."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView157"
+        app:layout_constraintTop_toBottomOf="@+id/textView157" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textView159"
+        style="@style/MyTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/ic_subscriber"
+        android:drawableStart="@drawable/ic_subscriber"
+        android:gravity="start|center"
+        android:hint="@string/enter_your_mobile_number"
+        android:imeOptions="actionDone"
+        android:inputType="number|textNoSuggestions"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView158"
+        app:layout_constraintStart_toStartOf="@+id/textView158"
+        app:layout_constraintTop_toBottomOf="@+id/textView158" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="CANCEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView161"
+        app:layout_constraintEnd_toStartOf="@+id/textView161" />
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:text="PROCEED"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView159" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/textView161"
+        app:layout_constraintEnd_toEndOf="@+id/textView161"
+        app:layout_constraintStart_toStartOf="@+id/textView161"
+        app:layout_constraintTop_toTopOf="@+id/textView161" />
+</androidx.constraintlayout.widget.ConstraintLayout>

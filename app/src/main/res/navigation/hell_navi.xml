@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cart_nabi"
+    app:startDestination="@+id/navigation_address_list">
+
+    <fragment
+        android:id="@+id/navigation_address_list"
+        android:name="com.vrise.bazaar.ex.shop.pages.shop.AddressListFragment"
+        android:label="AddressListFragment">
+        <action
+            android:id="@+id/action_navigation_address_list_to_navigation_place"
+            app:destination="@id/navigation_place" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_place"
+        android:name="com.vrise.bazaar.ex.shop.pages.shop.AddPlaces"
+        android:label="AddPlaces">
+        <action
+            android:id="@+id/action_navigation_place_to_navigation_address_list"
+            app:destination="@id/navigation_address_list"
+            app:popUpTo="@+id/navigation_address_list" />
+    </fragment>
+
+</navigation>

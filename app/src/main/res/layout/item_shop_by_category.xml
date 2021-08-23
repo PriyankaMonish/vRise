@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/constraintLayout"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    &lt;!&ndash;    android:layout_margin="@dimen/_3sdp"&ndash;&gt;-->
+<!--    &lt;!&ndash;    android:background="@drawable/bg_card_round_item"&ndash;&gt;-->
+<!--    &lt;!&ndash;    android:orientation="vertical"&ndash;&gt;-->
+<!--    &lt;!&ndash;    android:padding="8dp"&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/imageView4"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="80dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="80dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:src="@drawable/csea"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:ignore="ContentDescription" />&ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/_3sdp"-->
+<!--        android:layout_marginTop="@dimen/_3sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/_8sdp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView4"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="SmallSp" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView70"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        app:srcCompat="@drawable/bg"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="5dp" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="wrap_content"
+app:cardCornerRadius="@dimen/_10sdp"
+    android:id="@+id/card12"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="@dimen/_8sdp"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="120dp"
+    android:layout_height="90dp"
+    android:background="@drawable/corner_shape"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+      />
+</androidx.cardview.widget.CardView>

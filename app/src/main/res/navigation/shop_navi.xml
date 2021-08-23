@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shop_navi"
+    app:startDestination="@+id/homeFragment">
+
+    <fragment
+        android:id="@+id/navigation_my_order"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.OrdersFragment"
+        android:label="OrdersFragment">
+        <action
+            android:id="@+id/action_navigation_my_order_to_orderShow"
+            app:destination="@id/orderShow" />
+        <action
+            android:id="@+id/action_navigation_my_order_to_navigation_cart2"
+            app:destination="@id/navigation_cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.vrise.bazaar.ex.shop.pages.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_navigation_profile_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.WalletFragment"
+        android:label="WalletFragment">
+        <action
+            android:id="@+id/action_navigation_wallet_to_payWalletFragment2"
+            app:destination="@id/payWalletFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_item_detail"
+        android:name="com.vrise.bazaar.ex.shop.pages.shop.ItemDetailFragment"
+        android:label="ItemDetailFragment">
+        <action
+            android:id="@+id/action_navigation_item_detail_to_navigation_cart"
+            app:destination="@+id/navigation_cart"
+            app:popUpTo="@+id/navigation_shop_detail" />
+        <action
+            android:id="@+id/action_navigation_item_detail_to_navigation_cart2"
+            app:destination="@id/navigation_cart" />
+        <action
+            android:id="@+id/action_navigation_item_detail_to_navigation_cart3"
+            app:destination="@id/navigation_cart" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_shop_detail"
+        android:name="com.vrise.bazaar.ex.shop.pages.shop.ShopDetailFragment"
+        android:label="ShopDetailFragment">
+        <action
+            android:id="@+id/action_navigation_shop_detail_to_navigation_item_detail"
+            app:destination="@id/navigation_item_detail" />
+        <action
+            android:id="@+id/action_navigation_shop_detail_to_finderFragment"
+            app:destination="@id/finderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.DashBoardFragment"
+        android:label="Shop Fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_navigation_shop_detail"
+            app:destination="@id/navigation_shop_detail" />
+        <action
+            android:id="@+id/action_homeFragment_to_navigation_item_detail"
+            app:destination="@id/navigation_item_detail" />
+        <action
+            android:id="@+id/action_homeFragment_to_finderFragment"
+            app:destination="@id/finderFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_shopDetailFragmentB"
+            app:destination="@id/shopDetailFragmentB" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.CartFragment"
+        android:label="CartFragment">
+        <action
+            android:id="@+id/action_navigation_cart_to_navigation_checkout"
+            app:destination="@id/navigation_checkout" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_checkout"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.OutFragment"
+        android:label="OutFragment">
+        <action
+            android:id="@+id/action_navigation_checkout_to_shoppingSuccess"
+            app:destination="@id/shoppingSuccess" />
+        <action
+            android:id="@+id/action_navigation_checkout_to_saleDone"
+            app:destination="@id/saleDone"
+            app:popUpTo="@+id/navigation_cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.MoreFragment"
+        android:label="MoreFragment">
+        <action
+            android:id="@+id/action_navigation_more_to_navigation_profile2"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_more_to_verificationCode"
+            app:destination="@id/verificationCode" />
+    </fragment>
+    <fragment
+        android:id="@+id/finderFragment"
+        android:name="com.vrise.bazaar.ex.shop.pages.shop.FinderFragment"
+        android:label="FinderFragment">
+        <action
+            android:id="@+id/action_finderFragment_to_searchShopDetail"
+            app:destination="@id/searchShopDetail" />
+        <action
+            android:id="@+id/action_finderFragment_to_navigation_item_detail"
+            app:destination="@id/navigation_item_detail" />
+        <action
+            android:id="@+id/action_finderFragment_to_navigation_shop_detail"
+            app:destination="@id/navigation_shop_detail" />
+        <action
+            android:id="@+id/action_finderFragment_to_shopDetailFragmentB"
+            app:destination="@id/shopDetailFragmentB" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/shoppingSuccess"
+        android:name="com.vrise.bazaar.ex.ShoppingSuccess"
+        android:label="ShoppingSuccess">
+        <action
+            android:id="@+id/action_shoppingSuccess_to_saleDone"
+            app:destination="@id/saleDone"
+            app:popUpTo="@id/navigation_cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/saleDone"
+        android:name="com.vrise.bazaar.ex.SaleDone"
+        android:label="SaleDone">
+        <action
+            android:id="@+id/action_saleDone_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@+id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/payWalletFragment"
+        android:name="com.vrise.bazaar.ex.shop.pages.PayWalletFragment"
+        android:label="PayWalletFragment">
+        <action
+            android:id="@+id/action_payWalletFragment_to_navigation_wallet2"
+            app:destination="@id/navigation_wallet"
+            app:popUpTo="@+id/navigation_wallet" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationCode"
+        android:name="com.vrise.bazaar.ex.shop.pages.registration.VerificationCode"
+        android:label="VerificationCode" />
+    <fragment
+        android:id="@+id/shopDetailFragmentB"
+        android:name="com.vrise.bazaar.ex.shop.ShopDetailFragmentB"
+        android:label="ShopDetailFragmentB">
+        <action
+            android:id="@+id/action_shopDetailFragmentB_to_navigation_item_detail"
+            app:destination="@id/navigation_item_detail" />
+        <action
+            android:id="@+id/action_shopDetailFragmentB_to_finderFragment"
+            app:destination="@id/finderFragment" />
+        <action
+            android:id="@+id/action_shopDetailFragmentB_to_navigation_cart2"
+            app:destination="@id/navigation_cart" />
+        <action
+            android:id="@+id/action_shopDetailFragmentB_to_navigation_item_detail2"
+            app:destination="@id/navigation_item_detail" />
+        <action
+            android:id="@+id/action_shopDetailFragmentB_to_navigation_item_detail3"
+            app:destination="@id/navigation_item_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackPageFragment2"
+        android:name="com.vrise.bazaar.ex.shop.pages.TrackPageFragment"
+        android:label="track_fragment"
+        tools:layout="@layout/track_fragment">
+        <action
+            android:id="@+id/action_trackPageFragment2_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderShow"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.OrderShow"
+        android:label="order_show_fragment"
+        tools:layout="@layout/order_show_fragment">
+        <action
+            android:id="@+id/action_orderShow_to_trackPageFragment2"
+            app:destination="@id/trackPageFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.vrise.bazaar.ex.shop.pages.chat.ChatFragment"
+        android:label="fragment_chat_list"
+        tools:layout="@layout/fragment_chat_list" />
+    <fragment
+        android:id="@+id/myOrderFragment"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.MyOrderFragment"
+        android:label="fragment_my_order"
+        tools:layout="@layout/fragment_my_order" >
+        <action
+            android:id="@+id/action_myOrderFragment_to_navigation_cart"
+            app:destination="@id/navigation_cart" />
+        <action
+            android:id="@+id/action_myOrderFragment_to_orderShow"
+            app:destination="@id/orderShow" />
+    </fragment>
+    <fragment
+        android:id="@+id/shippingMethod"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.ShippingMethod"
+        android:label="fragment_shipping_method"
+        tools:layout="@layout/fragment_shipping_method" />
+    <fragment
+        android:id="@+id/sideBarCategory2"
+        android:name="com.vrise.bazaar.ex.shop.pages.main.SideBarCategory"
+        android:label="fragment_side_bar_category"
+        tools:layout="@layout/fragment_side_bar_category" >
+        <action
+            android:id="@+id/action_sideBarCategory2_to_shopDetailFragmentB"
+            app:destination="@id/shopDetailFragmentB" />
+    </fragment>
+
+</navigation>

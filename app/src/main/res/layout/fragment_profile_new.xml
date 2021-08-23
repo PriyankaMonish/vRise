@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quantum_white_100"
+    tools:context=".bazaar.ex.shop.pages.main.profileNew">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:background="@drawable/for_white"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView348"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/profiles_name"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+            android:inputType="textPersonName"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView348" />
+
+        <TextView
+            android:id="@+id/textView350"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="House Name / Door Number"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="@+id/textView348"
+            app:layout_constraintTop_toBottomOf="@+id/profiles_name" />
+
+        <EditText
+            android:id="@+id/housde_name"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+
+            android:text="TextView"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView350"
+            app:layout_constraintTop_toBottomOf="@+id/textView350" />
+
+        <TextView
+            android:id="@+id/textView353"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:text="Area/Locality/Street"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="@+id/housde_name"
+            app:layout_constraintTop_toBottomOf="@+id/housde_name" />
+
+        <EditText
+            android:id="@+id/areas_locality"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView353"
+            app:layout_constraintTop_toBottomOf="@+id/textView353" />
+
+        <TextView
+            android:id="@+id/textView356"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="State"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="@+id/areas_locality"
+            app:layout_constraintTop_toBottomOf="@+id/areas_locality" />
+
+        <TextView
+            android:id="@+id/states"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+            android:focusable= "true"
+            android:focusableInTouchMode="true"
+            android:inputType= "none"
+
+            android:clickable="false"
+            android:windowSoftInputMode="stateHidden"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView356" />
+
+        <TextView
+            android:id="@+id/textView372"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="District"
+            android:textColor="@color/colorAccent"
+
+            app:layout_constraintStart_toStartOf="@+id/textView356"
+            app:layout_constraintTop_toBottomOf="@+id/states" />
+
+        <TextView
+            android:id="@+id/districts"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+            android:focusable= "true"
+            android:focusableInTouchMode="true"
+            android:inputType= "none"
+            android:clickable="false"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:windowSoftInputMode="stateHidden"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="@+id/states"
+            app:layout_constraintStart_toStartOf="@+id/textView372"
+            app:layout_constraintTop_toBottomOf="@+id/textView372" />
+
+        <TextView
+            android:id="@+id/textView374"
+            android:layout_width="61dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Pincode"
+            android:textColor="@color/colorAccent"
+
+            app:layout_constraintStart_toStartOf="@+id/districts"
+            app:layout_constraintTop_toBottomOf="@+id/districts" />
+
+        <EditText
+            android:id="@+id/pins"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+
+            android:inputType="number"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="@+id/districts"
+            app:layout_constraintStart_toStartOf="@+id/districts"
+            app:layout_constraintTop_toBottomOf="@+id/textView374" />
+
+        <TextView
+            android:id="@+id/textView376"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mobile"
+            android:textColor="@color/colorAccent"
+
+            app:layout_constraintStart_toStartOf="@+id/pins"
+            app:layout_constraintTop_toBottomOf="@+id/pins" />
+
+        <TextView
+            android:id="@+id/mobiles"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+            android:text="TextView"
+            android:inputType="phone"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView376"
+            app:layout_constraintTop_toBottomOf="@+id/textView376" />
+
+        <TextView
+            android:id="@+id/textView378"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Email"
+            android:textColor="@color/colorAccent"
+
+            app:layout_constraintStart_toStartOf="@+id/mobiles"
+            app:layout_constraintTop_toBottomOf="@+id/mobiles" />
+
+        <EditText
+            android:id="@+id/e_mails"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@drawable/bg_card_round_green2"
+            android:gravity="left|center"
+            android:paddingStart="8dp"
+
+android:inputType="textWebEmailAddress"
+            android:textColor="@color/mine_shaft_hint"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="@+id/mobiles"
+            app:layout_constraintStart_toStartOf="@+id/textView378"
+            app:layout_constraintTop_toBottomOf="@+id/textView378" />
+
+        <ImageView
+            android:id="@+id/imageView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_close_box"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView81"
+            app:layout_constraintTop_toBottomOf="@+id/e_mails" />
+
+        <ImageView
+            android:id="@+id/imageView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_box_active"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView80"
+            app:layout_constraintEnd_toEndOf="@+id/e_mails"
+            app:layout_constraintTop_toTopOf="@+id/imageView80" />
+
+        <View
+            android:id="@+id/view27"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="#14000000"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Edit Profile"
+            app:layout_constraintStart_toStartOf="@+id/e_mails"
+            app:layout_constraintTop_toBottomOf="@+id/e_mails" />
+                <include layout="@layout/item_progress_sheet"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/include6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+

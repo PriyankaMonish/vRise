@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <TextView
+        android:id="@+id/textView3317"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/textView3515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3319"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="gone"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageView73"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3515"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3317"
+        app:layout_constraintEnd_toStartOf="@+id/textView74"
+        app:layout_constraintStart_toEndOf="@+id/textView3317"
+        app:layout_constraintTop_toTopOf="@+id/textView3317" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3317"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3515"
+        app:layout_constraintTop_toTopOf="@+id/textView3317"
+        app:srcCompat="@drawable/ic_close_red" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/square_primary"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="-"
+        android:textColor="@color/blacker"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3317"
+        app:layout_constraintEnd_toStartOf="@+id/textView75"
+        app:layout_constraintStart_toEndOf="@+id/textView3515"
+        app:layout_constraintTop_toTopOf="@+id/textView3317" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="0"
+        android:textColor="@color/blacker"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView74"
+        app:layout_constraintEnd_toStartOf="@+id/textView76"
+        app:layout_constraintTop_toTopOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/square_primary"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:text="+"
+        android:textColor="@color/blacker"
+        app:layout_constraintBottom_toBottomOf="@+id/textView75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView75" />
+
+    <TextView
+        android:id="@+id/textView393"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3317"
+        app:layout_constraintStart_toStartOf="@+id/textView3317"
+        app:layout_constraintTop_toBottomOf="@+id/textView3317" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
